@@ -1,0 +1,578 @@
+@charset "utf-8";
+
+#top .all_menu,
+.gnb_wrap {
+    display: none;
+}
+
+@media only screen and (max-width:1210px) {
+
+    /* work 아이콘 숨기기*/
+    .content.work .section_icon {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1060px) {
+
+    /* mission 아이콘 숨기기*/
+    .content.mission .section_icon {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width:930px) {
+
+    /* 헤더 */
+    body #top {
+        height: 50px;
+    }
+
+    .top_box {
+        justify-content: space-between;
+    }
+
+    .header #logo img {
+        width: 100%;
+    }
+
+    #top #gnb {
+        display: none;
+    }
+
+    #top .all_menu {
+        display: block;
+    }
+
+    #top .gnb_wrap {
+        display: block;
+    }
+
+}
+
+
+
+@media only screen and (max-width:872px) {
+
+
+    #about_page6 .about_page6_icon .icon_ul .icon_01 .title {
+        background: url(../images/about/page6_icon1.png) no-repeat center 0vw/15vw auto;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul .icon_02 .title {
+        background: url(../images/about/page6_icon2.png) no-repeat center 0vw/15vw auto;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul .icon_03 .title {
+        background: url(../images/about/page6_icon3.png) no-repeat center 0vw/15vw auto;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul .icon_04 .title {
+        background: url(../images/about/page6_icon4.png) no-repeat center 0vw/15vw auto;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul .icon_05 .title {
+        background: url(../images/about/page6_icon5.png) no-repeat center 0vw/15vw auto;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul .title {
+        padding-top: 16vw;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+    /* 마우스 에니메이션 숨김 */
+    .content .mouse {
+        display: none;
+    }
+
+    /* br태그 숨김, 생성  */
+    .section_title .br1 {
+        display: none;
+    }
+
+    .section_content .br1 {
+        display: none;
+    }
+
+    .section_title .br2 {
+        display: block;
+    }
+
+    .section_content .br2 {
+        display: block;
+    }
+
+    .visit_info .br2 {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+    /* 밑줄있는 제목줄  */
+    body .content .content_list {
+        padding: 9vw 3vw;
+    }
+
+    #about_page2 .content_list .section_title span,
+    #work_page2 .content_list .section_title span,
+    #mission_page2 .content_list .section_title span,
+    #history_page2 .content_list .section_title span {
+        width: 20vw;
+        line-height: 7.5vw;
+    }
+
+    #about_page2 .content_list .section_title div:nth-child(1),
+    #work_page2 .content_list .section_title div:nth-child(1),
+    #mission_page2 .content_list .section_title div:nth-child(1),
+    #history_page2 .content_list .section_title div:nth-child(1) {
+        font-size: 4vw;
+
+    }
+
+    #about_page2 .content_list .section_title div:nth-child(2),
+    #work_page2 .content_list .section_title div:nth-child(2),
+    #mission_page2 .content_list .section_title div:nth-child(2),
+    #history_page2 .content_list .section_title div:nth-child(2) {
+        font-size: 7vw;
+        margin: 3.5vw auto;
+    }
+
+    #about_page2 .content_list .section_content p {
+        font-size: 4vw;
+        line-height: 6.2vw;
+    }
+
+    /* 밑줄없는 제목줄*/
+    /* about_page3~5 공통적용 */
+    body .section_title div:nth-child(1) {
+        font-size: 7vw;
+        line-height: 1;
+    }
+
+    /* about_page3 */
+    body #about_page3 .section_title div:nth-child(2) {
+        font-size: 4vw;
+        margin: 3.5vw auto;
+    }
+
+    /* about_page4 */
+    body #about_page4 .section_title div:nth-child(2) {
+        font-size: 4vw;
+        margin: 3.5vw auto 0;
+        line-height: 6vw;
+    }
+
+    body #about_page4 .section_title div:nth-child(4) {
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+
+    body #about_page4 .section_title div:nth-child(5) {
+        font-size: 4vw;
+        margin: 1vw auto;
+        line-height: 5.5vw;
+    }
+
+
+
+
+
+
+
+    /*************************************** about ***************************************/
+    /* about_page1 */
+    body #about_page1 .section_1 .moveScreen .inner .vimg {
+        background-image: url(../images/about/1main_mo.jpg);
+    }
+
+    /* 메인슬라이드 블릿수정 */
+    body #about_page1 .swiper-pagination {
+        display: unset;
+    }
+
+    body #about_page1 .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    body #about_page1 .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* 메인슬라이드 텍스트 */
+    body #about_page1 .swiper-slide .sub_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 10vw;
+        width: 80%;
+        text-align: left;
+    }
+
+    #about_page1 .swiper-slide .sub_text span {
+        width: 100%;
+    }
+
+    /* about_page2  */
+    #about_page2 .section_content .font30 {
+        font-size: 5vw;
+    }
+
+    #about_page2 .section_icon {
+        display: none;
+    }
+
+    /* about_page3  */
+    body #about_page3 .section_content img {
+        width: 100%;
+        padding: 0 3vw;
+        max-width: 100%;
+    }
+
+    #about_page3 .section_content .font30 {
+        font-size: 4vw;
+    }
+
+    /* about_page4  */
+    #about_page4 .section_title .dashline {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .page .content_list .pc {
+        display: none;
+    }
+
+    .page .content_list .mo {
+        display: block;
+    }
+
+    .page .content_list .mo img {
+        padding: 20px;
+    }
+
+
+    /* about_page5  */
+    div.swiper-button-prev,
+    div.swiper-button-next {
+        display: none;
+    }
+
+    #about_page5 .second_swiper .swiper-slide {
+        padding: 12% 0 14% 0;
+        font-size: 4vw;
+        margin: 0;
+        line-height: 6vw;
+    }
+
+    #about_page5 .section_content .icon_ul .balloon01 {
+        width: 100%;
+        height: 6px;
+        bottom: -10%;
+    }
+
+    #about_page5 .section_content .icon_ul .balloon01:after {
+        border-top: 6px solid #2b38e0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        top: 6px;
+    }
+
+    #about_page5 .about_page5_icon .icon_ul .icon_ul_01 .title {
+        background: url(../images/about/page5_icon1.png) no-repeat center 0vw/13vw auto;
+    }
+
+    #about_page5 .about_page5_icon .icon_ul .icon_ul_02 .title {
+        background: url(../images/about/page5_icon2.png) no-repeat center 0vw/13vw auto;
+    }
+
+    #about_page5 .about_page5_icon .icon_ul .icon_ul_03 .title {
+        background: url(../images/about/page5_icon3.png) no-repeat center 0vw/13vw auto;
+    }
+
+    #about_page5 .about_page5_icon .icon_ul .icon_ul_04 .title {
+        background: url(../images/about/page5_icon4.png) no-repeat center 0vw/13vw auto;
+    }
+
+    #about_page5 .about_page5_icon .icon_ul .icon_ul_05 .title {
+        background: url(../images/about/page5_icon5.png) no-repeat center 0vw/13vw auto;
+    }
+
+    #about_page5 .about_page5_icon .icon_ul .title {
+        padding-top: 16vw;
+    }
+
+    #about_page5 .about_page5_icon .icon_ul .title p {
+        font-size: 2.5vw;
+    }
+
+
+    /* about_page6  */
+    body #about_page6 .section_title .font30 {
+        display: none;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul {
+        text-align: center;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul li {
+        width: 50%;
+        margin: 2.5vw 0;
+    }
+
+    #about_page6 .about_page6_icon .icon_ul .title p {
+        font-size: 2.5vw;
+    }
+
+
+
+
+
+
+
+
+    
+
+    /*************************************** work ***************************************/
+    /* work, mission top배너 공통 */
+    /* 탑텍스트 */
+    .top_visual img {
+        width: 80vw;
+    }
+    /* work_page1  */
+    .content.work .content_list .section_content p {
+        font-size: 4vw;
+        line-height: 6.2vw;
+    }
+
+
+
+    /* work 아이콘 숨기기*/
+    .content.work .section_icon {
+        display: block;
+    }
+
+    /* 아이콘 이미지 (공통적용) */
+    body .content.work .section_icon {
+        position: unset;
+        max-width: 100%;
+    }
+
+    /* 아이콘1 */
+    body .section_icon.icon1 {
+        margin: 5vw 0 0 50vw;
+        width: 40vw;
+    }
+
+    /* 아이콘2 */
+    body .section_icon.icon2 {
+        margin: 5vw 0 0 5vw;
+        width: 40vw;
+    }
+
+    /* 아이콘3 */
+    body .section_icon.icon3 {
+        margin: 5vw 0 0 50vw;
+        width: 40vw;
+    }
+
+    /* 아이콘4 */
+    body .section_icon.icon4 {
+        margin: 5vw 0 0 5vw;
+        width: 35vw;
+    }
+
+
+
+
+
+
+/*************************************** mission ***************************************/
+    /* mission_page1  */
+    .content.mission .content_list .section_content p {
+        font-size: 4vw;
+        line-height: 6.2vw;
+    }
+
+    .content.mission .font30 {
+        font-size: 5.5vw;
+        line-height: 7vw;
+    }
+
+    /* mission 아이콘 숨기기*/
+    .content.mission .section_icon {
+        display: block;
+    }
+
+    /* 점선 숨기기 */
+    .mission_dash {
+        display: none;
+    }
+
+    /* 아이콘 이미지 (공통적용) */
+    body .content.mission .section_icon {
+        position: unset;
+        max-width: 100%;
+    }
+
+    /* 아이콘1 */
+    body .content.mission .section_icon.icon1 {
+        margin: 10vw auto 0;
+        width: 40vw;
+    }
+
+    /* 아이콘2 */
+    body .content.mission .section_icon.icon2 {
+        margin: 10vw auto 0;
+        width: 36vw;
+    }
+
+    /* 아이콘3 */
+    body .content.mission .section_icon.icon3 {
+        margin: 10vw auto 0;
+        width: 22vw;
+    }
+
+
+
+
+
+
+
+
+
+
+/*************************************** connect ***************************************/
+    /* connect */
+    .content_list .visit .text h2 {
+        font-size: 7.5vw;
+    }
+
+    .content_list .visit .text p {
+        font-size: 3vw;
+        font-weight: 100;
+        margin: 2.3888vw auto 0;
+    }
+
+    .content_list .visit_info {
+        margin: 4.5138vw auto 0;
+        line-height: 6vw;
+        font-size: 4vw;
+    }
+
+    .content.connect .content_list .visit_info li {
+        float: none;
+        margin: 0 auto 4.878vw;
+    }
+
+    .content.connect .visit_info li:nth-child(1) {
+        width: 100%;
+    }
+
+    .content.connect .visit_info li:nth-child(2) {
+        width: 100%;
+    }
+
+    .content.connect .visit_info li:nth-child(3) {
+        width: 100%;
+    }
+
+
+
+
+
+
+/*************************************** 푸터 ***************************************/
+    footer .footer_area {
+        font-size: 2.7vw;
+        padding: 3vw;
+    }
+
+    body footer .copy {
+        font-size: 2.5vw;
+        padding: 2vw;
+        text-align: center;
+    }
+
+    .foot_logo img {
+        width: 100%;
+    }
+
+    body .footer_area .info .foot_logo {
+        margin-right: 7vw;
+    }
+
+
+
+    /* 위아래 사이드 버튼 */
+    body .side_bnr_wrap {
+        width: 40px;
+    }
+
+
+    body .side_bnr_wrap .bt_top,
+    body .side_bnr_wrap .bt_btm {
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        background: url(../images/common/bt_side_arrow.png) no-repeat center / 17px;
+    }
+}
+
+/* 768px */
+
+
+
+@media only screen and (max-width:500px) {
+
+    /* about_page5  */
+
+    body #about_page5 .about_page5_icon .icon_ul li:nth-child(2) {
+        bottom: -90%;
+    }
+
+
+    #about_page5 .section_content .icon_ul li.balloon01 {
+        width: 80%;
+        bottom: -25%;
+        height: 7px;
+    }
+
+    #about_page5 .section_content .icon_ul li.balloon01:after {
+        border-top: 7px solid #2b38e0;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        top: 7px;
+    }
+}
