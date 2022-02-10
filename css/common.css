@@ -1188,6 +1188,33 @@ div.swiper-button-next {
 	vertical-align: middle;
 }
 
+/* 모바일 */
+.history_mo {
+	display: none;
+	margin-top:10vw;
+}
+
+.history_mobox {
+	display: flex;
+	flex-direction: column;
+	margin-bottom:15vw;
+}
+
+.history_num {
+	font-size: 4vw;
+	font-weight: 100;
+}
+
+.history_title{
+	font-size: 5.1vw;
+	font-weight: 500;
+	margin-bottom:3vw;
+}
+.history_content{
+	font-size: 4vw;
+	line-height:6.2vw;
+	
+}
 
 
 /********************************* connect *******************************/
